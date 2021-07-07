@@ -48,7 +48,7 @@ section .wrapper{
 
 .container{
     height: 700px;
-    /* min-width: 1487px; */
+    min-width: 1487px;
 }
 
 .wrapper{
@@ -181,6 +181,10 @@ nav li{
     width: 80%;
 }
 
+#header-container{
+    height: 500px;
+}
+
 #btn-box{
     width: 70%;
     margin: 0 auto;
@@ -197,4 +201,13 @@ nav li{
     left: 50%;
     transform: translate(-50%, 0%);
     width: 80%;
+    height: 100px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: top;
+}
+
+#star-container *{
+    margin-top: 20px;
 }
