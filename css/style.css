@@ -43,7 +43,7 @@ p{
 }
 
 .container{
-    height: 750px;
+    height: 700px;
     /* min-width: 1487px; */
 }
 
@@ -75,7 +75,7 @@ p{
 
 .main-menu{
     width: 60%;
-    padding-left: 60px;
+    padding-left: 150px;
 }
 
 nav li{
@@ -95,11 +95,18 @@ nav li{
 
 }
 
-.header-txt {
+.header-container {
+    height: 65%;
     width: 65%;
     text-align: center;
-    margin: 0 auto;
+    margin: 100px auto 0 auto;
 }
+
+.header-container *{
+    margin-bottom: 40px;
+}
+
+
 
 
 
@@ -133,6 +140,10 @@ nav li{
     background-color: cornflowerblue;
 }
 
+.black-txt{
+    color: black;
+}
+
 .white-txt{
     color: white;
 }
@@ -144,6 +155,11 @@ nav li{
 }
 
 #btn-box{
-    width: 65%;
+    width: 70%;
     margin: 0 auto;
+}
+
+
+#btn-box ul li{
+    margin: 0 12.5px;
 }
