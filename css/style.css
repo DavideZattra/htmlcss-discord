@@ -9,6 +9,10 @@ body{
     font-family: 'roboto', sans-serif;
 }
 
+body>*{
+    min-width: 1487px;
+}
+
 ul{
     list-style-type: none;
 }
@@ -181,6 +185,49 @@ nav li{
     width: 80%;
 }
 
+.row{
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.col{
+    height: 100%;
+    width: 17.5%;
+    /* background-color: green;
+    border: 1px solid black; */
+    /* margin: 0 10px; */
+
+}
+
+.col-btm{
+    padding: 75px 50px;
+}
+.col.col-btm.fl ul li{
+    padding: 5px 0;
+}
+
+.col.col-btm.fl ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+/*  DA SISTEMARE
+    .col.col-btm.fl ul li a:nth-child(1){
+    font-weight: 600;
+    color: cornflowerblue;
+} */
+
+.col.col-btm.fl:first-child{
+    width: 30%;
+    padding: 75px;
+}
+
 #header-container{
     height: 500px;
 }
@@ -212,3 +259,15 @@ nav li{
     margin-top: 20px;
 }
 
+#footer-container{
+    height: 600px;
+    width: 100%;
+}
+
+#bottombar{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
