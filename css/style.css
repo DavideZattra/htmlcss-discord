@@ -110,9 +110,10 @@ nav li{
     margin-bottom: 40px;
 }
 
-
-
-
+.container:last-child{
+    height: 900px;
+    text-align: center;
+}
 
 .col-img{
     position: relative;
@@ -172,6 +173,14 @@ nav li{
     clear: both;
 }
 
+.top-container{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
+}
+
 #btn-box{
     width: 70%;
     margin: 0 auto;
@@ -180,4 +189,12 @@ nav li{
 
 #btn-box ul li{
     margin: 0 12.5px;
+}
+
+#star-container{
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 80%;
 }
