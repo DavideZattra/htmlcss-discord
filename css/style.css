@@ -194,6 +194,7 @@ nav li{
 .col{
     height: 100%;
     width: 17.5%;
+    color: white;
     /* background-color: green;
     border: 1px solid black; */
     /* margin: 0 10px; */
@@ -217,16 +218,26 @@ nav li{
     margin: 20px 0;
 }
 
-/*  DA SISTEMARE
-    .col.col-btm.fl ul li a:nth-child(1){
-    font-weight: 600;
-    color: cornflowerblue;
-} */
+.col.col-btm.fl ul li:first-child a{
+font-weight: 800;
+color: cornflowerblue;
+} 
+
+.social-logo{
+    height: 30px;
+    width: 30px;
+}
 
 .col.col-btm.fl:first-child{
     width: 30%;
     padding: 75px;
 }
+
+.col.col-btm.fl:first-child h2{
+    color:cornflowerblue;
+}
+
+
 
 #header-container{
     height: 500px;
@@ -266,8 +277,22 @@ nav li{
 
 #bottombar{
     position: absolute;
-    bottom: 20px;
+    bottom: 60px;
     left: 0;
     height: 50px;
     width: 100%;
+    border-top: 2px solid cornflowerblue;
+    padding-top: 40px;
+}
+
+#lang-selector>nav>ul>li{
+    display: inline block;
+}
+
+#lang-selector>div{
+    display: inline-block;
+}
+
+#lang-selector>img{
+    width: 30px;
 }
